@@ -1,0 +1,25 @@
+ul{
+	list-style: none;
+}
+
+span.mp3{
+	display:block;
+}
+
+#navBar{
+	background-color:#cccccc;
+	width:30%;
+	margin:0px;
+	float:left;
+}
+
+#player{
+	width:30%;
+	margin:0px;
+	float:right;
+	height:500px;
+}
+
+.hover{
+	font-weight:900;
+}

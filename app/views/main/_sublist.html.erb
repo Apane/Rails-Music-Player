@@ -1,0 +1,8 @@
+<ul class="sublist">
+	<%@dirArray.each do |ele| %>
+		<li class="directoryItem"><span><%=ele%>/</span></li>
+	<%end%>
+	<%@fileArray.each do |ele| %>
+		<li class ="fileItem"><%=ele%></li>
+	<%end%>
+</ul>
